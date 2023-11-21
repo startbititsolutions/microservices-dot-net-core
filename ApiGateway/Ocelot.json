@@ -1,0 +1,331 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/products/All",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7150
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/products",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/Get/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7150
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/product/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/Add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7150
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/product/Add",
+      "UpstreamHttpMethod": [ "post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/Edit/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7150
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/product/Edit/{id}",
+      "UpstreamHttpMethod": [ "post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/products/Delete/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7150
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/product/Delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/All",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/userAll",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/Get/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/userget/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/Add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/UserAdd",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/user/Add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/UserAdd",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Edit/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/UserEdit/{id}",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Delete/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/api/UserDelete/{id}",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7020
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/UserLogin",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Order/AllOrders/",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Orders/All",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OrderItem/All/",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/OrderItem/All",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/OrderItem/buorderid/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/OrderItem/Get/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Order/GetOrder/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Order/Get/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Order/add/",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Order/Add",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Order/edit/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Order/Edit/{id}",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Order/Delete/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7220
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Order/Delete/{id}",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Track/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7167
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Track/GetAll",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Track/Get/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7167
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Track/Get/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Track/Edit/{id}/{status}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7167
+
+        }
+
+
+      ],
+      "UpstreamPathTemplate": "/Track/Edit/{id}/{status}",
+      "UpstreamHttpMethod": [ "Post" ]
+     
+    },
+    {
+      "DownstreamPathTemplate": "/api/Track/create/{orderid}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7167
+
+        }
+
+      ],
+      "UpstreamPathTemplate": "/Track/create/{orderid}",
+      "UpstreamHttpMethod": [ "Post" ]
+    }
+  ]
+}
+
+
+    
