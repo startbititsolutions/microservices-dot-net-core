@@ -2,6 +2,10 @@
 
 Building a Scalable eCommerce Platform with Microservices using .NET Core
 
+## Introduction
+
+In the fast-paced world of online business, creating an eCommerce platform that can grow seamlessly and withstand challenges is crucial. Companies must prioritize the development of a digital storefront that can handle increased demand and bounce back from any disruptions in the market.This Comprehensive Guide dive deep into a cutting eCommerce Solution Using Microservice
+
 ## Technology Used
 
 **Backend:** Asp.Net Core ,C#
@@ -93,3 +97,51 @@ Building a Scalable eCommerce Platform with Microservices using .NET Core
 ### Project Starting
 
 ![MultipleStartupProject](Screenshot/MultipleStartupProject.png)
+
+# Contents
+
+## Product Service
+
+- Description and responsibilities.
+- Table schema for storing product information.
+
+## Account Service
+
+- Description and responsibilities
+- Table Schema for storing User information
+
+## Checkout Service
+
+- Description and responsibilities
+- Table Schema for storing Order and OrderItem information
+
+## Tracking Service
+
+- Description and responsibilities
+- Table Schema for Storing OrderTrack information
+
+## ApiGateway
+
+- Routes To All the Service Using Ocelot
+
+### Setting Up the enviourment
+
+- .Net Core and any other Required Tools
+
+### Model Classes
+
+- Product Class
+
+![product class](Screenshot/ProductClasss.png)
+
+- User Class
+  ![User class](Screenshot/UserClass.png)
+
+- OrderClass
+  ![Order class](Screenshot/Orderclass.png)
+
+- OrderTrack Class
+  ![OrderTrack class](Screenshot/OrderTrackingClass.png)
+
+- OrderStatus Class
+  ![OrderStatus class](Screenshot/OrderStatusClass.png)
