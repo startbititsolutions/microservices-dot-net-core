@@ -48,55 +48,23 @@ In the fast-paced world of online business, creating an eCommerce platform that 
 
 ### Api Gateway
 
-![ApiGateway Screenshot1](Screenshot/ApiGateway_s1.png)
-
-![ApiGateway Screenshot2](Screenshot/ApiGateway_s2.png)
-
-![ApiGateway Screenshot3](Screenshot/ApiGateway_s3.png)
-
-![ApiGateway Screenshot4](Screenshot/ApiGateway_s4.png)
-
-![ApiGateway Screenshot5](Screenshot/ApiGateway_s5.png)
+![ApiGateway Screenshot1](Screenshot/ApiGateway_Track.png)
 
 ### Product Service
 
-![Product1 Screenshot](Screenshot/ProductService_s1.png)
-
-![Product1 Screenshot](Screenshot/ProductService_s2.png)
-
-![Product1 Screenshot](Screenshot/ProductService_s3.png)
+![Product1 Screenshot](Screenshot/ProductService_swagger.png)
 
 ### Account Service
 
-![AccountS1 Screenshot](Screenshot/AccountService_s1.png)
-
-![AccountS1 Screenshot](Screenshot/AccountService_s2.png)
+![AccountS1 Screenshot](Screenshot/AccountSercice_swagger.png)
 
 ### Checkout Service
 
-![Checkouts1 Screenshot](Screenshot/CheckoutService_s1.png)
-
-![Checkouts2 Screenshot](Screenshot/CheckoutService_s2.png)
-
-![Checkouts3 Screenshot](Screenshot/CheckoutService_s3.png)
-
-![Checkouts3 Screenshot](Screenshot/CheckoutService_s4.png)
-
-![Checkouts3 Screenshot](Screenshot/CheckoutService_s5.png)
-
-![Checkouts3 Screenshot](Screenshot/CheckoutService_s6.png)
+![Checkouts1 Screenshot](Screenshot/CheckoutService_swagger.png)
 
 ### Tracking Service
 
-![TrackS1 Screenshot](Screenshot/TrackService_s1.png)
-
-![TrackS1 Screenshot](Screenshot/TrackService_s2.png)
-
-![TrackS1 Screenshot](Screenshot/TrackService_s3.png)
-
-### Project Starting
-
-![MultipleStartupProject](Screenshot/MultipleStartupProject.png)
+![TrackS1 Screenshot](Screenshot/TrackingService_swagger.png)
 
 # Contents
 
@@ -145,3 +113,10 @@ In the fast-paced world of online business, creating an eCommerce platform that 
 
 - OrderStatus Class
   ![OrderStatus class](Screenshot/OrderStatusClass.png)
+
+### Project Starting
+
+![MultipleStartupProject](Screenshot/MultipleStartupProject.png)
+
+### Securing Your Microservice
+Secure your microservice by integrating authentication and authorization mechanisms. ASP.NET Core provides built-in support for JWT tokens, making it a robust choice for securing microservices.
